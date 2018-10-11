@@ -1,12 +1,6 @@
 <template>
   <div id="vue-app">
-    <h1>Todo list app</h1>
-<!--     <div class="todo-input">
-      <input type="text" ref="todoInput" v-on:keyup.enter="addTodo">
-      <button v-on:click="addTodo" class="btn">Add todo</button>
-    </div> -->
     <MyTodoList></MyTodoList>
-<!--      -->
   </div>
 </template>
 
@@ -93,37 +87,6 @@ input{
   border-style: solid;
 }
 
-button
-{
-  border: none;
-  padding:$inputPadding;
-}
 
-.remove-btn
-{
-  background-color:rgb(212, 87, 87);
-  color:white;
-  border-radius:4px;
-  margin-left:auto;
-  border:none;
-}
-.todos
-{
-  width:100%;
-  text-align:left;
-  list-style-type:none;
-  justify-content:start;
-  li{
-    padding: 1.2rem 1.5rem;
-    width:100%;
-    background-color:rgb(251, 251, 251);
-    border: 1px solid rgb(219, 219, 219);
-    margin: 0.5rem auto;
-    .remove-btn
-    {
-      margin-left:auto;
-      text-align: right;
-    }
-  }
-}
+
 </style>
