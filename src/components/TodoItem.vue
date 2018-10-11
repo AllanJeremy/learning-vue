@@ -28,6 +28,8 @@
   };
 </script>
 
-<style>
-
+<style scoped>
+ *{
+   color: blueviolet;
+ }
 </style>

@@ -64,3 +64,9 @@
       },
   }
 </script>
+
+<style scoped>
+  *{
+    color:red;
+  }
+</style>
