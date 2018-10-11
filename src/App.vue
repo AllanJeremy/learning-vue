@@ -1,26 +1,12 @@
 <template>
   <div id="vue-app">
     <h1>Todo list app</h1>
-    <div class="todo-input">
+<!--     <div class="todo-input">
       <input type="text" ref="todoInput" v-on:keyup.enter="addTodo">
       <button v-on:click="addTodo" class="btn">Add todo</button>
-    </div>
-    <div v-show="todos.length>0">
-      <ul class="todos">
-        <li v-for="(todoItem,index) in todos" v-bind:key="index" :style="todoStyle(index)" >
-          <div class="todo-item">
-          <div style="">
-            <input type="checkbox" v-bind:checked="todoItem.isDone" @click="updateTodo(index)" ref="todoItem" v-bind:id="'todo_'+index">
-            <label v-bind:for="'todo_'+index">{{todoItem.text}}</label>
-          </div>
-          <div style="position:relative;left:100%">
-            <button v-on:click="updateTodo(index)" class="update-btn">Update</button>
-            <button v-on:click="removeTodo(index)" class="remove-btn">Remove</button>
-          </div>
-          </div>
-        </li>
-      </ul>
-    </div>
+    </div> -->
+    <MyTodoList></MyTodoList>
+<!--      -->
   </div>
 </template>
 
